@@ -1,0 +1,47 @@
+name: RedKillerLibrary
+version: 1.0
+main: org.redkiller.RedKillerLibrary
+api-version: 1.19
+authors: [ RedKiller ]
+description: RedKiller`s plugin library
+
+commands:
+  test:
+    description: test command
+    aliases: [ 테스트 ]
+    permission: RedKillerLibrary_Test
+    permission-message: 당신은 이 명령어를 사용할 권한이 존재하지 않습니다!
+  skull:
+    description: get skull player or texture
+    aliases: [ 스컬 ]
+    permission: RedKillerLibrary_Skull
+    permission-message: 당신은 이 명령어를 사용할 권한이 존재하지 않습니다!
+  data:
+    description: check or modify data
+    aliases: [ 데이터 ]
+    permission: RedKillerLibrary_data
+    permission-message: 당신은 이 명령어를 사용할 권한이 존재하지 않습니다!
+  system:
+    description: check or modify data
+    aliases: [ 설정 ]
+    permission: RedKillerLibrary_System
+    permission-message: 당신은 이 명령어를 사용할 권한이 존재하지 않습니다!
+  mailBox:
+    description: open Player MailBox
+    aliases: [ 메일박스 ]
+  startKit:
+    description: give startKit to player
+    aliases: [ 기본템 ]
+  redKiller:
+    description: hidden
+
+permissions:
+  RedKillerLibrary_Test:
+    default: op
+  RedKillerLibrary_Skull:
+    default: op
+  RedKillerLibrary_Data:
+    default: op
+  RedKillerLibrary_System:
+    default: op
+
